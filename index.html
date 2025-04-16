@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    
+    <audio id="bg-music" loop>
+      <source src="assets/audio/birthday-music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="floating-notes">
+      <div id="note1" class="note">You're amazing! ✨</div>
+      <div id="note2" class="note">Wishing you joy! 🌟</div>
+      <div id="note3" class="note">Best wishes! 💖</div>
+      <div id="note4" class="note">Have a wonderful day! 🎉</div>
+      <div id="note5" class="note">You're special! 💫</div>
+      <div id="note6" class="note">Enjoy your day! 🎈</div>
+    </div>
+
+    <div class="floating-hearts"></div>
+
+    <div class="message-center">
+      <h1>Happy Birthday!</h1>
+      <p class="subtitle">To the most amazing person in the world</p>
+      <p class="message">Wishing you a day filled with joy, laughter, and lots of love!</p>
+      <button id="startMusic" class="music-button">🎵 Play Music</button>
+    </div>
+
+    <!-- Mirror Element -->
+    <div class="magic-mirror">
+      <div class="mirror-frame">
+        <div class="mirror-glass"></div>
+        <div class="mirror-sparkles"></div>
+      </div>
+    </div>
+
+    <!-- Compliment Modal -->
+    <div class="compliment-modal">
+      <div class="compliment-content">
+        <div class="compliment-image">
+          <img src="assets/images/yitong.jpg" alt="Yi Tong">
+        </div>
+        <p class="compliment-text"></p>
+        <button class="close-compliment">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
