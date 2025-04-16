@@ -154,33 +154,38 @@ window.addEventListener('resize', () => {
 
 // Mirror and Compliments
 const compliments = [
-  `You've always been beautiful.
-  To me, you're the most beautiful person I've ever met.
-  
-  Not just in how you look,
-  but in how you carry yourself, how you care,
-  and how you make everything feel brighter.
-  
-  You're the first person who truly understood me —
-  the first time I felt like I could just be me.
-  
-  Around you, I can talk freely,
-  share my excitement,
-  and say whatever's on my mind without worry.
-  
-  That kind of comfort means more to me than I can say.
-  
-  No gift I buy could ever express
-  my gratitude, so I made this instead.
-  
-  Happy Birthday, Yi Tong!!
-  
-  Here's to more moments and memories,
-  and everything still to come.
-  
-  You'll always have a place in my thoughts.
-  
-  —Charan`
+  `You’ve always been beautiful.
+To me, you’re the most beautiful person I’ve ever met.
+
+Not just in how you look,
+but in how you carry yourself, how you care,
+and how you make everything feel brighter.
+
+You’re the first person who truly understood me —
+the first time I felt like I could just be me.
+
+Around you, I can talk freely,
+share my excitement,
+and say whatever’s on my mind without worry.
+
+That kind of comfort means more to me than I can say.
+
+No gift I buy could ever express
+my gratitude, so I made this instead.
+
+Happy Birthday, Yi Tong!!
+
+I don’t always know how to say these things in person,
+but I hope this speaks for me.
+
+Here’s to more moments and memories,
+and everything still to come.
+
+You’ll always have a place in my thoughts.
+
+—Charan
+
+`
 ];
 
 const mirror = document.querySelector('.magic-mirror');
